@@ -37,10 +37,10 @@ fun ContadorScreen(modifier: Modifier = Modifier) {
         Text(text = "Contador", fontSize = 28.sp)
         Text(text = "$contador", fontSize = 72.sp, color = colorNumero)
         Spacer(modifier = Modifier.height(24.dp))
-//        BotonesContador(
-//            onDisminuir = { contador-- },
-//            onAumentar = { contador++ },
-//            onReiniciar = { contador = valorInicial }
-//        )
+        BotonesContador(
+            onDisminuir = { contador-- },
+            onAumentar = { contador++ },
+            onReiniciar = { contador = valorInicial }
+        )
     }
 }
